@@ -1,12 +1,11 @@
 <script lang="ts">
-  import TextWithIcon from "./TextWithIcon.svelte";
-  import Links from "./Links.svelte";
-  import Skills from "./Skills.svelte";
-  import MiscInfo from "./MiscInfo.svelte";
-  import data from "../content/data.json";
-  let { contact } = data;
-  let { email, phone, address } = contact;
-  console.log(phone);
+  import TextWithIcon from './TextWithIcon.svelte'
+  import Links from './Links.svelte'
+  import Skills from './Skills.svelte'
+  import MiscInfo from './MiscInfo.svelte'
+  import data from '../content/data.json'
+  let { contact } = data
+  let { email, phone, address } = contact
 </script>
 
 <div

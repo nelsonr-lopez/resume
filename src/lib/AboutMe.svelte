@@ -1,12 +1,12 @@
 <script>
-  import Experience from "./Experience.svelte";
-  import Learning from "./Learning.svelte";
-  import SeciontHeadline from "./SeciontHeadline.svelte";
-  import data from "../content/data.json";
-  let fourUSCopy = data["4us"];
+  import Experience from './Experience.svelte'
+  import Learning from './Learning.svelte'
+  import SeciontHeadline from './SeciontHeadline.svelte'
+  import data from '../content/data.json'
+  let fourUSCopy = data['4us']
 
-  let profileCopy = data.profile;
-  let securitizeCopy = data.securitize;
+  let profileCopy = data.profile
+  let securitizeCopy = data.securitize
 </script>
 
 <div id="profile" class="w-full p-12">

@@ -1,6 +1,6 @@
 <script>
-  export let title;
-  export let path;
+  export let title
+  export let path
 </script>
 
 <svg

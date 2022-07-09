@@ -1,7 +1,7 @@
 <script>
-  import Icon from "./Icon.svelte";
-  export let text;
-  export let path;
+  import Icon from './Icon.svelte'
+  export let text
+  export let path
 </script>
 
 <div class="flex items-center my-3">

@@ -1,8 +1,8 @@
 <script>
-  import data from "../content/data.json";
-  import Icon from "./Icon.svelte";
-  let { contact } = data;
-  let { webLinks } = contact;
+  import data from '../content/data.json'
+  import Icon from './Icon.svelte'
+  let { contact } = data
+  let { webLinks } = contact
 </script>
 
 <div class="font-light text-lg px-2 mb-12">

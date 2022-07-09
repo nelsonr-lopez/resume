@@ -1,6 +1,6 @@
 <script>
-  import data from "../content/data.json";
-  let { tools, skills } = data;
+  import data from '../content/data.json'
+  let { tools, skills } = data
 </script>
 
 <div class="font-light text-lg px-2 mb-12">

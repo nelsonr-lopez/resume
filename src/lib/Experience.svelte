@@ -1,6 +1,6 @@
 <script lang="ts">
-  import type { ExperienceCopy } from "../content/CopyTypes";
-  export let experienceCopy: ExperienceCopy;
+  import type { ExperienceCopy } from '../content/CopyTypes'
+  export let experienceCopy: ExperienceCopy
 </script>
 
 <div id="experience" class="prose">
