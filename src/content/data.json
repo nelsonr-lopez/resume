@@ -70,5 +70,39 @@
       }
     ]
   },
-  "tools": ["AWS", "Vercel", "Heroku", "DynamoDB", "MongoDB", "SQL"]
+  "tools": ["AWS", "Vercel", "Heroku", "DynamoDB", "MongoDB", "SQL"],
+  "skills": [
+    {
+      "name": "Javascript",
+      "proficiency": "90"
+    },
+    {
+      "name": "Go",
+      "proficiency": "60"
+    },
+    {
+      "name": "Elm",
+      "proficiency": "90"
+    },
+    {
+      "name": "Node",
+      "proficiency": "75"
+    },
+    {
+      "name": "Nest",
+      "proficiency": "80"
+    },
+    {
+      "name": "GraphQL",
+      "proficiency": "70"
+    },
+    {
+      "name": "Svelte",
+      "proficiency": "60"
+    },
+    {
+      "name": "React",
+      "proficiency": "90"
+    }
+  ]
 }
