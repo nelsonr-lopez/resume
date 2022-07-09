@@ -1,3 +1,7 @@
+<script>
+  import data from "../content/data.json";
+</script>
+
 <div class="font-light text-lg px-2 mb-12">
   <h2 class="text-xl font-semibold mb-4">Skills & Tools</h2>
   <ul class="list-none">

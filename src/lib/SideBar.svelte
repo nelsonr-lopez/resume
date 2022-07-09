@@ -4,7 +4,9 @@
   import Skills from "./Skills.svelte";
   import MiscInfo from "./MiscInfo.svelte";
   import data from "../content/data.json";
-  let contact = data["contact"];
+  let { contact } = data;
+  let { email, phone, address } = contact;
+  console.log(phone);
 </script>
 
 <div
@@ -22,10 +24,10 @@
   </div>
   <div class="font-light text-lg px-2 mb-12">
     <h2 class="text-xl font-semibold mb-4">Contact</h2>
-    <TextWithIcon icon="./assets/mail-outline.svg" text={contact.email} />
+    <TextWithIcon path={email.svg} text={email.info} />
 
-    <TextWithIcon icon="./assets/mail-outline.svg" text={contact.phone} />
-    <TextWithIcon icon="./assets/mail-outline.svg" text={contact.address} />
+    <TextWithIcon path={phone.svg} text={phone.info} />
+    <TextWithIcon path={address.svg} text={address.info} />
   </div>
   <!-- <PersonalInfo /> -->
   <Links />
