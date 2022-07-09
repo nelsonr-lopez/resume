@@ -1,7 +1,7 @@
 <script lang="ts">
   import TailwindCss from "./TailwindCSS.svelte";
   import SideBar from "./lib/SideBar.svelte";
-  import Profile from "./lib/Profile.svelte";
+  import AboutMe from "./lib/AboutMe.svelte";
   import Footer from "./lib/Footer.svelte";
 </script>
 
@@ -15,7 +15,7 @@
     class="flex flex-col sm:flex-row-reverse sm:m-12 shadow-2xl"
   >
     <SideBar />
-    <Profile />
+    <AboutMe />
     <hr class="mt-8 mb-12" />
   </main>
 </div>

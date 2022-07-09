@@ -1,10 +1,5 @@
-<script>
-  import SeciontHeadline from "./SeciontHeadline.svelte";
-</script>
-
 <hr class="mt-8 mb-12" />
 <div id="projects" class="prose">
-  <SeciontHeadline title="Projects" />
   <div class="mb-16">
     <h3 id="chrisko-headline">Nelson.io</h3>
     <section class="mb-6">

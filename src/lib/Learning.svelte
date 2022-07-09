@@ -1,4 +1,4 @@
-<script>
+<!-- <script>
   import SeciontHeadline from "./SeciontHeadline.svelte";
 </script>
 
@@ -23,4 +23,4 @@
       </li>
     </ul>
   </div>
-</div>
+</div> -->
