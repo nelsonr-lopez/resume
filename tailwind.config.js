@@ -1,5 +1,4 @@
 export default {
-  plugins: [],
     theme: {
     extend: {},
   },
@@ -8,4 +7,5 @@ export default {
     extend: {},
   },
   darkMode: false, // or 'media' or 'class'
+  plugins: []
 }

@@ -1,6 +1,10 @@
 <hr class="mt-8 mb-12" />
 <div id="projects" class="prose">
-  <h2 class="section-headline">Projects</h2>
+  <h2
+    class="font-bold sm:text-xl uppercase tracking-widest text-green-600 border-green-500 border-l-8 pl-2;"
+  >
+    Projects
+  </h2>
   <div class="mb-16">
     <h3 id="chrisko-headline">Nelson.io</h3>
     <section class="mb-6">
