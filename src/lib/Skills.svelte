@@ -1,5 +1,6 @@
 <script>
   import data from "../content/data.json";
+  let { tools } = data;
 </script>
 
 <div class="font-light text-lg px-2 mb-12">
@@ -40,12 +41,9 @@
     <li>
       <div>Infrastructure / Hosting / DB</div>
       <p class="leading-8">
-        <span class="rounded-xl bg-gray-300 px-3">AWS</span>
-        <span class="rounded-xl bg-gray-300 px-3">Vercel</span>
-        <span class="rounded-xl bg-gray-300 px-3">Heroku</span>
-        <span class="rounded-xl bg-gray-300 px-3">DynamoDB</span>
-        <span class="rounded-xl bg-gray-300 px-3">MongoDB</span>
-        <span class="rounded-xl bg-gray-300 px-3">SQLite</span>
+        {#each tools as tool}
+          <span class="rounded-xl bg-gray-300 px-2.5">{tool}</span> &nbsp;
+        {/each}
       </p>
     </li>
   </ul>

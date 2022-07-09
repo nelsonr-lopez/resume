@@ -3,10 +3,10 @@
   import Learning from "./Learning.svelte";
   import SeciontHeadline from "./SeciontHeadline.svelte";
   import data from "../content/data.json";
-
-  let profileCopy = data["profile"];
   let fourUSCopy = data["4us"];
-  let securitizeCopy = data["securitize"];
+
+  let profileCopy = data.profile;
+  let securitizeCopy = data.securitize;
 </script>
 
 <div id="profile" class="w-full p-12">
