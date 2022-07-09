@@ -1,9 +1,9 @@
+<script>
+  import SeciontHeadline from "./SeciontHeadline.svelte";
+</script>
+
 <div id="experience" class="prose">
-  <h2
-    class="font-bold sm:text-xl uppercase tracking-widest text-green-600 border-green-500 border-l-8 pl-2;"
-  >
-    Experience
-  </h2>
+  <SeciontHeadline title="Experience" />
   <div>
     <h3>Example Inc</h3>
     <section class="mb-6">

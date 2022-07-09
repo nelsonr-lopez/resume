@@ -3,15 +3,12 @@
   import Footer from "./Footer.svelte";
   import Learning from "./Learning.svelte";
   import Projects from "./Projects.svelte";
+  import SeciontHeadline from "./SeciontHeadline.svelte";
 </script>
 
 <div id="profile" class="w-full p-12">
   <div id="profile" class="prose">
-    <h2
-      class="font-bold sm:text-xl uppercase tracking-widest text-green-600 border-green-500 border-l-8 pl-2;"
-    >
-      Profile
-    </h2>
+    <SeciontHeadline title="Profile" />
     <p>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
       tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim

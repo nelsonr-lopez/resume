@@ -1,10 +1,10 @@
+<script>
+  import SeciontHeadline from "./SeciontHeadline.svelte";
+</script>
+
 <hr class="mt-8 mb-12" />
 <div id="projects" class="prose">
-  <h2
-    class="font-bold sm:text-xl uppercase tracking-widest text-green-600 border-green-500 border-l-8 pl-2;"
-  >
-    Learning
-  </h2>
+  <SeciontHeadline title="Learning" />
   <div class="mb-16">
     <h4 id="expand-knowledge-headline">
       I'd like to expand my skills and knowledge in several fields
