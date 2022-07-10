@@ -1,11 +1,11 @@
 export default {
-    theme: {
+  theme: {
     extend: {},
   },
-  purge: ["./index.html",'./src/**/*.{svelte,js,ts}'], // for unused CSS
+  purge: ['./index.html', './src/**/*.{svelte,js,ts}'], // for unused CSS
   variants: {
     extend: {},
   },
   darkMode: false, // or 'media' or 'class'
-  plugins: []
+  plugins: [],
 }

@@ -26,9 +26,4 @@
     class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0"
     >Ionicons</a
   >
-  <a
-    href="https://unsplash.com/@jackofallstreets?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
-    class="text-sm px-4 py-2 m-2 text-gray-600 border-gray-400 border-2 rounded flex-shrink-0"
-    >Photo by Jack Finnigan</a
-  >
 </footer>

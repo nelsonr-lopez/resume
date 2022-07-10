@@ -1,26 +1,23 @@
+<script lang="ts">
+  import type { ExperienceCopy } from '../content/CopyTypes'
+  export let experienceCopy: ExperienceCopy
+</script>
+
 <div id="experience" class="prose">
-  <h2
-    class="font-bold sm:text-xl uppercase tracking-widest text-green-600 border-green-500 border-l-8 pl-2;"
-  >
-    Experience
-  </h2>
   <div>
-    <h3>Example Inc</h3>
+    <h3>{experienceCopy.companyName}</h3>
     <section class="mb-6">
       <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-        Jul.&nbsp;2019:
+        {experienceCopy.workDate}:
       </div>
-      <div class="lg:inline-block lg:w-8/12 w-full">Fullstack Developer</div>
+      <div class="lg:inline-block lg:w-8/12 w-full">{experienceCopy.title}</div>
     </section>
     <section class="mb-6">
       <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
         Task:
       </div>
       <div class="lg:inline-block lg:w-8/12 w-full">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
-        tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
-        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-        commodo consequat.
+        {experienceCopy.task}
       </div>
     </section>
     <section class="mb-6">
@@ -28,22 +25,17 @@
         Description:
       </div>
       <div class="lg:inline-block lg:w-8/12 w-full">
-        Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-        dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-        proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        {experienceCopy.description}
       </div>
     </section>
   </div>
   <section class="mb-6">
     <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">Tools:</div>
     <div class="lg:inline-block lg:w-8/12 w-full">
-      <span class="rounded-xl bg-gray-300 px-3">Vue</span>
-      <span class="rounded-xl bg-gray-300 px-3">Vuex</span>
-      <span class="rounded-xl bg-gray-300 px-3">Bootstrap</span>
-      <span class="rounded-xl bg-gray-300 px-3">Docker</span>
-      <span class="rounded-xl bg-gray-300 px-3">Git</span>
-      <span class="rounded-xl bg-gray-300 px-3">Bitbucket</span>
-      <span class="rounded-xl bg-gray-300 px-3">Jira</span>
+      {#each experienceCopy.tools as tool}
+        <span class="rounded-xl bg-gray-300 px-3">{tool} </span>
+        &nbsp;
+      {/each}
     </div>
   </section>
 </div>

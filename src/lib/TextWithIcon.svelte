@@ -1,9 +1,10 @@
 <script>
-  export let icon;
-  export let text;
+  import Icon from './Icon.svelte'
+  export let text
+  export let path
 </script>
 
 <div class="flex items-center my-3">
-  <img src={icon} class="inline w-6 mr-4" />
+  <Icon title={text} {path} />
   <a href="mailto:">{text}</a>
 </div>
