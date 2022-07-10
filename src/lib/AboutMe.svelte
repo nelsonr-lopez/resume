@@ -10,7 +10,7 @@
 </script>
 
 <div id="profile" class="w-full p-12">
-  <div id="profile" class="prose">
+  <div class="prose">
     <SeciontHeadline title="Profile" />
     <p>
       {profileCopy.p1}
@@ -21,8 +21,8 @@
   </div>
   <hr class="mt-8 mb-12" />
   <SeciontHeadline title="Experience" />
-  <Experience experienceCopy={fourUSCopy} />
-  <Experience experienceCopy={securitizeCopy} />
+  <Experience experience={fourUSCopy} />
+  <Experience experience={securitizeCopy} />
   <!-- <Projects /> -->
   <Learning />
 </div>

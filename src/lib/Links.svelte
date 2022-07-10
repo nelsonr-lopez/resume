@@ -1,4 +1,6 @@
-<script>
+<script lang="ts">
+  import type { Contact, WebLink } from 'src/content/CopyTypes'
+
   import data from '../content/data.json'
   import Icon from './Icon.svelte'
   let { contact } = data

@@ -104,5 +104,19 @@
       "name": "React",
       "proficiency": "90"
     }
+  ],
+  "education": {
+    "degree": "Software Engineering Immersive",
+    "info": "2019 General Assembly"
+  },
+  "languages": [
+    {
+      "name": "English",
+      "fluency":"Fluent"
+    },
+    {
+      "name": "Spanish",
+      "fluency": "Native"
+    }
   ]
 }
