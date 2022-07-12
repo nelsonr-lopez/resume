@@ -10,11 +10,11 @@
 
 <div
   id="sidebar"
-  class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-indigo-300 via-green-300 to-white"
+  class="w-full sm:max-w-sm p-8 bg-gradient-to-b from-red-300 via-orange-300 to-white"
 >
   <div class="px-2 mb-12">
     <img
-      src="./assets/jack-finnigan-rriAI0nhcbc-unsplash.jpg"
+      src="../../public/assets/headshot (1).jpeg"
       alt="Profile Picture"
       class="rounded-full w-48 mx-auto mb-2"
     />

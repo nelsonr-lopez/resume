@@ -1,23 +1,23 @@
 <script lang="ts">
-  import type { ExperienceCopy } from '../content/CopyTypes'
-  export let experienceCopy: ExperienceCopy
+  import type { Experience } from '../content/CopyTypes'
+  export let experience: Experience
 </script>
 
 <div id="experience" class="prose">
   <div>
-    <h3>{experienceCopy.companyName}</h3>
+    <h3 class="text-stone-900">{experience.companyName}</h3>
     <section class="mb-6">
       <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
-        {experienceCopy.workDate}:
+        {experience.workDate}:
       </div>
-      <div class="lg:inline-block lg:w-8/12 w-full">{experienceCopy.title}</div>
+      <div class="lg:inline-block lg:w-8/12 w-full">{experience.title}</div>
     </section>
     <section class="mb-6">
       <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
         Task:
       </div>
       <div class="lg:inline-block lg:w-8/12 w-full">
-        {experienceCopy.task}
+        {experience.task}
       </div>
     </section>
     <section class="mb-6">
@@ -25,14 +25,14 @@
         Description:
       </div>
       <div class="lg:inline-block lg:w-8/12 w-full">
-        {experienceCopy.description}
+        {experience.description}
       </div>
     </section>
   </div>
   <section class="mb-6">
     <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">Tools:</div>
     <div class="lg:inline-block lg:w-8/12 w-full">
-      {#each experienceCopy.tools as tool}
+      {#each experience.tools as tool}
         <span class="rounded-xl bg-gray-300 px-3">{tool} </span>
         &nbsp;
       {/each}
