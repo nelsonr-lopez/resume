@@ -16,7 +16,7 @@
       <div>Infrastructure / Hosting / DB</div>
       <p class="leading-8">
         {#each tools as tool}
-          <span class="rounded-xl bg-gray-300 px-2.5">{tool}</span> &nbsp;
+          <span class="rounded-xl bg-yellow-50 px-2.5">{tool}</span> &nbsp;
         {/each}
       </p>
     </li>

@@ -5,7 +5,7 @@
 
 <div id="experience" class="prose">
   <div>
-    <h3>{experience.companyName}</h3>
+    <h3 class="text-stone-900">{experience.companyName}</h3>
     <section class="mb-6">
       <div class="lg:inline-block lg:w-3/12 lg:align-top italic mb-2">
         {experience.workDate}:

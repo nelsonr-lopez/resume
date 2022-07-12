@@ -1,12 +1,12 @@
 <script>
-  import Experience from './Experience.svelte'
+  import WorkExperience from './WorkExperience.svelte'
   import Learning from './Learning.svelte'
   import SeciontHeadline from './SeciontHeadline.svelte'
   import data from '../content/data.json'
-  let fourUSCopy = data['4us']
+
+  let { jobs } = data
 
   let profileCopy = data.profile
-  let securitizeCopy = data.securitize
 </script>
 
 <div id="profile" class="w-full p-12">
@@ -21,8 +21,9 @@
   </div>
   <hr class="mt-8 mb-12" />
   <SeciontHeadline title="Experience" />
-  <Experience experience={fourUSCopy} />
-  <Experience experience={securitizeCopy} />
+  {#each jobs as job}
+    <WorkExperience experience={job} />
+  {/each}
   <!-- <Projects /> -->
   <Learning />
 </div>
