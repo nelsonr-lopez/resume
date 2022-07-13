@@ -10,7 +10,6 @@
   },
   "plugins": ["svelte3"],
   "extends": ["eslint:recommended"],
-  "eslintIgnore": ["./src/content/CopyTypes.ts"],
   "overrides": [
     {
       "files": ["**/*.svelte"],
